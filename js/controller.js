@@ -5,7 +5,9 @@ $(document).ready(function () {
         width = 938,
         height = 500,
         country,
-        state;
+        state,
+        baseimg = 'images/',
+        baseimgext = '.gif';
 
     var projection = d3.geo.mercator()
         .scale(150)
@@ -72,16 +74,24 @@ $(document).ready(function () {
     function country_hover(d) {
         if(d && d.properties.data) {
             g.selectAll("#" + d.id).attr('class', 'highlight');
+            $('#country').text(d.id);
+            $('#country-img').attr('src', baseimg + d.id + baseimgext).show();
+            $('#country-desc').text(d.properties.description);
+
         }
-        $('#country').text(d.properties.name);
+
+
     }
 
 
     function country_hout(d) {
         if(d && d.properties.data) {
             g.selectAll("#" + d.id).attr('class', 'presence');
+            $('#country').html("&nbsp;");
+            $('#country-desc').text("");
+            $('#country-img').hide();
         }
-        $('#country').html("&nbsp;");
+
     }
 
 

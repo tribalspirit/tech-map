@@ -108,3 +108,15 @@ pre.prettyprint {
     cursor: pointer;
     display: none;
 }
+
+#country-img {
+    width: 150px;
+    margin: 0 15px;
+    float: left;
+
+}
+
+#country-desc {
+    padding-left:20px;
+
+}

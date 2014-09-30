@@ -81,7 +81,8 @@
                 "type": "Polygon",
                 "properties": {
                     "name": "Armenia",
-                    "data": "Domains: Java, C#, e-Commerce"
+                    "data": "Domains: Java, C#, e-Commerce",
+                    "description" : "Our office in Armenia helps us deliver engineering excellence to our clients worldwide."
                 },
                 "id": "ARM",
                 "arcs": [
@@ -255,7 +256,8 @@
                 "type": "Polygon",
                 "properties": {
                     "name": "Belarus",
-                    "data": "Domains: Java, C#, e-Commerce"
+                    "data": "Domains: Java, C#, e-Commerce",
+                    "description": "With a rich heritage in software engineering and IT outsourcing, Belarus location houses EPAM’s oldest delivery operation, providing a range of services and competencies for our global client base."
                 },
                 "id": "BLR",
                 "arcs": [
@@ -360,7 +362,9 @@
                 "type": "MultiPolygon",
                 "properties": {
                     "name": "Canada",
-                    "data": "Domains: Java, C#, e-Commerce"
+                    "data": "Domains: Java, C#, e-Commerce",
+                    "description": "EPAM’s Canadian office expands our North American delivery operation, bringing significant expertise to our Agile Development, Enterprise Mobility and Telecommunications services.",
+                    "cities": ["Toronto"]
                 },
                 "id": "CAN",
                 "arcs": [
@@ -564,7 +568,8 @@
                 "type": "Polygon",
                 "properties": {
                     "name": "Switzerland",
-                    "data": "Domains: Java, C#, e-Commerce"
+                    "data": "Domains: Java, C#, e-Commerce",
+                    "description": "EPAM’s Swiss office serves a growing number of clients in our Financial Services practice, offering client engagement, consulting and management services."
                 },
                 "id": "CHE",
                 "arcs": [
@@ -660,7 +665,8 @@
                 "type": "MultiPolygon",
                 "properties": {
                     "name": "China",
-                    "data": "Domains: Java, C#, e-Commerce"
+                    "data": "Domains: Java, C#, e-Commerce",
+                    "description" : "Our local offices help us serve our customers better in the Asia Pacific region as well as worldwide."
                 },
                 "id": "CHN",
                 "arcs": [
@@ -818,7 +824,8 @@
                 "type": "MultiPolygon",
                 "properties": {
                     "name": "Germany",
-                    "data": "Domains: Java, C#, e-Commerce"
+                    "data": "Domains: Java, C#, e-Commerce",
+                    "description": "EPAM’s German office in Frankfurt am Main provides client engagement and management support for our clients in Germany and in the EU."
                 },
                 "id": "DEU",
                 "arcs": [
@@ -1066,7 +1073,8 @@
                 "type": "MultiPolygon",
                 "properties": {
                     "name": "United Kingdom",
-                    "data": "Domains: Java, C#, e-Commerce"
+                    "data": "Domains: Java, C#, e-Commerce",
+                    "description": "EPAM’s UK office is our largest dedicated Client Services operation in the EU, providing London-based consulting, engagement management and technology services to UK clients as well as supporting other EU Client locations."
                 },
                 "id": "GBR",
                 "arcs": [
@@ -1292,7 +1300,8 @@
                 "type": "Polygon",
                 "properties": {
                     "name": "Hungary",
-                    "data": "Domains: Java, C#, e-Commerce"
+                    "data": "Domains: Java, C#, e-Commerce",
+                    "description": "EPAM’s European Headquarters, our Hungary Delivery center is the central hub for our European Delivery and Client Service operation."
                 },
                 "id": "HUN",
                 "arcs": [
@@ -1648,7 +1657,8 @@
                 "type": "MultiPolygon",
                 "properties": {
                     "name": "Kazakhstan",
-                    "data": "Domains: Java, C#, e-Commerce"
+                    "data": "Domains: Java, C#, e-Commerce",
+                    "description": "EPAM Systems entered Kazakhstan to focus on the local IT market. Today we also serve clients from other regions utilizing the talent available in our Kazakhstan locations."
                 },
                 "id": "KAZ",
                 "arcs": [
@@ -1943,7 +1953,8 @@
                 "type": "MultiPolygon",
                 "properties": {
                     "name": "Singapore",
-                    "data": "Domains: Java, C#, e-Commerce"
+                    "data": "Domains: Java, C#, e-Commerce",
+                    "description" : "From its office in Singapore EPAM delivers software engineering services to its clients worldwide."
                 },
                 "id": "MYS",
                 "arcs": [
@@ -2011,7 +2022,8 @@
                 "type": "MultiPolygon",
                 "properties": {
                     "name": "Netherlands",
-                    "data": "Domains: Java, C#, e-Commerce"
+                    "data": "Domains: Java, C#, e-Commerce",
+                    "description": "Our Dutch office helps us serve our customers better in the Netherlands as well as in the EU."
                 },
                 "id": "NLD",
                 "arcs": [
@@ -2030,6 +2042,7 @@
                 "type": "MultiPolygon",
                 "properties": {
                     "name": "Norway"
+
                 },
                 "id": "NOR",
                 "arcs": [
@@ -2259,7 +2272,9 @@
                 "type": "Polygon",
                 "properties": {
                     "name": "Poland",
-                    "data": "Domains: Java, C#, e-Commerce"
+                    "data": "Domains: Java, C#, e-Commerce",
+                    "description": "EPAM’s Poland operation is a relatively recent addition, helping us to extend our Nearshore delivery capabilities with new skills and services in technology consulting and software outsourcing. Poland is a win-win location offering outstanding IT capabilities and highest quality standards augmented by the geographical and cultural proximity."
+
                 },
                 "id": "POL",
                 "arcs": [
@@ -2354,7 +2369,8 @@
                 "type": "MultiPolygon",
                 "properties": {
                     "name": "Russia",
-                    "data": "Domains: Java, C#, e-Commerce"
+                    "data": "Domains: Java, C#, e-Commerce",
+                    "description": "Moscow, Russia is our CIS headquarters, serving as our main Client Services office in the region as well as providing engagement management support for development offices in the region. In terms of offshore software development, Russia features mature engineering best practices, reliable quality, and vast intellectual potential for delivering complex, value-added, innovative solutions."
                 },
                 "id": "RUS",
                 "arcs": [
@@ -2664,7 +2680,8 @@
                 "type": "MultiPolygon",
                 "properties": {
                     "name": "Sweden",
-                    "data": "Domains: Java, C#, e-Commerce"
+                    "data": "Domains: Java, C#, e-Commerce",
+                    "description": "EPAM’s Sweden offices provide onshore consulting and support to our Nordics clients, while enhancing our NearShore delivery capabilities."
                 },
                 "id": "SWE",
                 "arcs": [
@@ -2833,7 +2850,8 @@
                 "type": "Polygon",
                 "properties": {
                     "name": "Ukraine",
-                    "data": "Domains: Java, C#, e-Commerce"
+                    "data": "Domains: Java, C#, e-Commerce",
+                    "description" : "With traditionally strong skills in software engineering, Ukraine is EPAM’s second largest delivery operation and is home to several large dedicated centers of excellence."
                 },
                 "id": "UKR",
                 "arcs": [
@@ -2853,7 +2871,8 @@
                 "type": "MultiPolygon",
                 "properties": {
                     "name": "United States",
-                    "data": "Domains: Java, C#, e-Commerce"
+                    "data": "Domains: Java, C#, e-Commerce",
+                    "description": "Founded in 1993, EPAM maintains North American headquarters in Newtown, PA, along with offices in New York, NY; Marlborough and Cambridge, MA; Conshohocken and Philadelphia, PA."
 
                 },
                 "id": "USA",
@@ -2953,6 +2972,7 @@
                 "type": "Polygon",
                 "properties": {
                     "name": "Uzbekistan"
+
                 },
                 "id": "UZB",
                 "arcs": [
