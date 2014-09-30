@@ -74,7 +74,7 @@ $(document).ready(function () {
     function country_hover(d) {
         if(d && d.properties.data) {
             g.selectAll("#" + d.id).attr('class', 'highlight');
-            $('#country').text(d.id);
+            $('#country').text(d.properties.name);
             $('#country-img').attr('src', baseimg + d.id + baseimgext).show();
             $('#country-desc').text(d.properties.description);
 
