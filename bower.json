@@ -1,0 +1,17 @@
+{
+	"name": "tech-map",
+	"version": "0.3.2",
+	"description": "",
+	"dependencies": {
+		"foundation": "*",
+		"angular": "*",
+		"angular-resource": "*",
+		"angular-animate": "*",
+		"angular-mocks": "*",
+		"angular-bootstrap": "*",
+		"angular-ui-utils": "*",
+		"angular-ui-router": "*",
+        "d3": "*",
+        "topojson": "*"
+	}
+}
